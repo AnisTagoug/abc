@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/discovery-server/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/apigateway/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/apiigateway/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/test/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="employeeService" />
+        <module name="leaveService" />
+        <module name="discovery-server" />
+        <module name="test" />
+        <module name="salaryService" />
+        <module name="EventService" />
+        <module name="interviewService" />
+        <module name="jobsService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
+      <module name="apiigateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EventService" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="apiigateway" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
+      <module name="employeeService" options="-parameters" />
+      <module name="interviewService" options="-parameters" />
+      <module name="jobsService" options="-parameters" />
+      <module name="leaveService" options="-parameters" />
+      <module name="salaryService" options="-parameters" />
+      <module name="test" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+[submodule "employeeservice"]
+	path = employeeservice
+	url = https://gitlab.com/5twin5_skillfusion/employeeservice.git
+[submodule "salaryservice"]
+	path = salaryservice
+	url = https://gitlab.com/5twin5_skillfusion/salaryservice
+[submodule "leaveservice"]
+	path = leaveservice
+	url = https://gitlab.com/5twin5_skillfusion/leaveservice
+[submodule "jobsservice"]
+	path = jobsservice
+	url = https://gitlab.com/5twin5_skillfusion/jobsservice
+[submodule "interviewservice"]
+	path = interviewservice
+	url = https://gitlab.com/5twin5_skillfusion/interviewservice
+[submodule "eventservice"]
+	path = eventservice
+	url = https://gitlab.com/5twin5_skillfusion/eventservice.git

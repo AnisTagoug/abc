@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/apigateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/employeeservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eventservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/interviewservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jobsservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leaveservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/salaryservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/src/main/java" charset="UTF-8" />
+  </component>
+</project>
